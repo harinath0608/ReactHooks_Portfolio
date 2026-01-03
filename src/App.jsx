@@ -1,7 +1,7 @@
 import "./styles.css";
 import FormValidate from "./FormValidate";
 import Counter from "./Counter";
-import RestApi from "./RestApi";
+import RestApi from "./RestApi_Fetch";
 function App() {
 
   return (
