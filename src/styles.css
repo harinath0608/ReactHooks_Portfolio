@@ -1,0 +1,26 @@
+.app {
+  min-height: 100vh;
+  padding: 40px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+/* Light Theme */
+.app.light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Dark Theme */
+.app.dark {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.toggle-btn {
+  padding: 10px 20px;
+  margin-top: 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+}
